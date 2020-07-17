@@ -1,0 +1,120 @@
+* {
+    font-family: "Roboto Mono" , monospace;
+}
+
+img {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+.top {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    padding-left: 15px;
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    color:white;
+}
+
+.plan {
+    background-color: #FF764E;
+}
+
+.learn {
+    background-color: #5ED3EB;
+}
+
+.get {
+    background-color: #FFCD69;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+}
+
+.intro img {
+    border-radius: 50%;
+    width: 250px;
+}
+
+.head {
+    margin-left: -50px;
+}
+
+.head h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 50px;
+}
+
+.head p:nth-child(3){
+    width: 20em;
+}
+
+.overall-facts {
+    display: flex;
+    flex-direction: column;
+}
+
+.overall-facts img {
+    width: 15em;
+    margin: 0 auto;
+}
+
+.overall-facts p {
+    width: 50vw;
+    margin: 50px auto;
+}
+
+.overall-facts > p {
+    padding: 75px;
+    background-color: #DDB9A3;
+    width: 80vw;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9E7DC;
+}
+
+footer img {
+    height:20em;
+    padding-bottom:5em;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+}
